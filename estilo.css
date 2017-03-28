@@ -1,0 +1,140 @@
+*{
+    margin: 0;
+    padding: 0;
+    background-color: #00acb9;
+}
+.camara{
+    height: 240px;
+    width: 400px;
+    background-color: #00ccde;
+    margin: 0 auto;
+    margin-top: 200px;
+    border-radius: 3px;  
+    position: relative;
+}
+
+.franja{
+    width: 400px;
+    height: 80px;
+    background-color: #FF5020;
+    margin-top: 80px;  
+    position: absolute;
+}
+
+.focus{
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+    margin: auto;
+    margin-top: 20px;
+    margin-left: 100px;
+    position: absolute;
+    background-color: #D7EBED;
+    box-shadow: 2px 9px 0px rgba(0,0,0,0.2); 
+}
+
+.circulo-grande{
+    height: 160px;
+    width: 160px;
+    border-radius: 50%;
+    background-color: #5A6667;
+    margin: auto;
+    margin-top: 20px;
+}
+
+.circulo-mediano{
+    height: 140px;
+    width: 140px;
+    border-radius: 50%;
+    background-color: #424B4B;
+    position: absolute;
+    margin-top: 10px;
+    margin-left: 10px;
+    
+}
+
+.circulo-regular{
+    height: 120px;
+    width: 120px;
+    border-radius: 50%;
+    background-color: #1E2523;
+    position: absolute;
+    margin-top: 10px;
+    margin-left: 10px;
+    
+}
+
+.circulo-pequeno{
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    background-color: #080A0B;
+    position: absolute;
+    margin-top: 10px;
+    margin-left: 10px;
+    
+}
+
+.reflejo{
+    height: 80px;
+    width: 95px;
+    border-radius: 50%;
+    position: relative;
+    margin-top: -150px;
+    margin-left: 52px;
+    opacity: .7;
+    background-color: white;
+}
+
+.contenedor-flash{
+    height: 20px;
+    width: 80px;
+    border-radius: 20px;
+    float: right;
+    background-color: #D7EBED;
+    margin-top: 15px;
+    margin-right: 20px;
+}
+
+.flash{
+    width: 65px;
+    height: 20px;
+    margin: auto;
+    background-color: #d7ebed;
+
+}
+
+.linea{
+    height: 20px;
+    width: 2px;
+    display: inline-block;
+    margin: 0.1px;
+    background-color: white;
+}
+.boton-principal{
+    float: left;
+    height: 20px;
+    width: 60px;
+    background-color: #d7ebed;
+    margin-top: -20px;
+    margin-left: 35px;
+}
+
+.boton-izquierda{
+    height: 40px;
+    width: 11px;
+    float: left;
+    margin-top: 13px;
+    margin-left: -11px;
+    background-color: #d7ebed;
+    
+}
+
+.boton-derecha{
+    height: 40px;
+    width: 11px;
+    float: right;
+    margin-top: 13px;
+    margin-right: -11px;
+    background-color: #d7ebed;
+}
